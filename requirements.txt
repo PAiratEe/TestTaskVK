@@ -1,0 +1,11 @@
+pyspark~=3.5.2
+pip~=23.3
+attrs~=22.1.0
+wheel~=0.41.2
+cryptography~=43.0.1
+docutils~=0.19
+setuptools~=68.2.0
+packaging~=21.3
+Pygments~=2.15.1
+jsonschema~=3.2.0
+typing_extensions>=4.5.0
