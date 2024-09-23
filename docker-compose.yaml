@@ -31,6 +31,7 @@ x-airflow-common:
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/input:/opt/airflow/input
     - ${AIRFLOW_PROJ_DIR:-.}/output:/opt/airflow/output
+    - ${AIRFLOW_PROJ_DIR:-.}/temp:/opt/airflow/temp
     - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
